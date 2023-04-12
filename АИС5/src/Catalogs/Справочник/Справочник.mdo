@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b678d0e0-08c3-40e0-aeb0-480a47b960a1">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b678d0e0-08c3-40e0-aeb0-480a47b960a1">
   <producedTypes>
     <objectType typeId="d1e6152c-c61b-4c44-abd5-6ff1ce484381" valueTypeId="ba53f57b-b34a-4ec4-995f-378e0c15c922"/>
     <refType typeId="c70d3acd-64b9-496d-b453-949985a40dbd" valueTypeId="11da21b5-2106-48ba-a3de-66f5917a742d"/>
@@ -30,4 +30,40 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="585c59a2-a952-4448-baa7-6d9cd2736300">
+    <name>Р1_ветка2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Р1 ветка2</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="05003387-bc70-4640-a528-d416ad0ec106">
+    <name>Р2_ветка2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Р2 ветка2</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>
